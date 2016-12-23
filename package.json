@@ -1,0 +1,30 @@
+{
+  "name": "virvar",
+  "version": "0.0.0",
+  "description": "Simple environment variable utility",
+  "main": "index.js",
+  "scripts": {
+    "preversion": "npm test",
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gswalden/virvar.git"
+  },
+  "author": "Greg Walden <talk@gsw.nyc>",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^3.0.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "envar",
+    "envvar",
+    "env-var",
+    "environment",
+    "variable",
+    "variables",
+  ]
+}
