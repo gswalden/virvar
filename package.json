@@ -1,6 +1,6 @@
 {
   "name": "virvar",
-  "version": "1.0.0-beta",
+  "version": "1.0.0",
   "description": "Simple environment variable utility",
   "main": "index.js",
   "scripts": {
@@ -20,11 +20,13 @@
     "index.js"
   ],
   "keywords": [
+    "env",
+    "var",
     "envar",
     "envvar",
     "env-var",
-    "environment",
     "variable",
-    "variables"
+    "variables",
+    "environment"
   ]
 }

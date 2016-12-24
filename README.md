@@ -6,6 +6,8 @@
 npm install --save virvar
 ```
 
+*Tested with Node >= 0.12*
+
 ### Use
 ```js
 // process.env = {
