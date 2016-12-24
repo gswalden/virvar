@@ -72,3 +72,7 @@ it('should throw when parsing bad JSON object', () => {
     vv('TEST_BADJSON1', true, 'j');
   });
 });
+
+it('package.json should load', () => {
+  require('./package');
+});
