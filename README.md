@@ -33,7 +33,7 @@ console.log(vv('BOOL_VAL2', false, 'b')); // true
 console.log(vv('BOOL_VAL3', false, 'b')); // true
 console.log(vv('BOOL_VAL4', false, 'b')); // false
 console.log(vv('JSON_VAL', false, 'j')); // { a: 1, b: 2, c: 3 }
-console.log(vv('ARRAY_VAL', false, 'a')); // [ item1, item2, item3 ]
+console.log(vv('ARRAY_VAL', false, 'a')); // [ 'item1', 'item2', 'item3' ]
 ```
 
 #### vv(name, required, type)
@@ -53,7 +53,7 @@ When true, an Error is thrown if the variable is not set.
 
 ##### type
 Type: `string`<br>
-Default `string`
+Default: `string`
 
 Valid values:
 
