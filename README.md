@@ -38,7 +38,7 @@ console.log(vv('ARRAY_VAL', false, 'a')); // [ 'item1', 'item2', 'item3' ]
 
 #### vv(name, required, type)
 Returns the value of the environment variable, optionally parsing it into the given type.
-Throws an error if the `required` parameter is truthy and the value is loosely equal to `null`.
+Throws an error if the `required` parameter is truthy and the value is loosely equal to `null` (before conversion).
 
 ##### name
 Type: `string`
