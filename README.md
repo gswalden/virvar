@@ -52,10 +52,10 @@ Default: `false`
 When true, an Error is thrown if the variable is not set.
 
 ##### type
-Type: `string`<br>
-Default `string`
+Type: `string`
 
-Valid values:
+By default, a string is returned. That string can be parsed into a different
+type by passing one of these values:
 
 - `'a'` Parses a comma-separated string into an array
 - `'b'` Parses the value into a boolean

@@ -4,7 +4,7 @@ function virvar(name, required, type) {
   var val = process.env[name];
   if (val == null) {
     if (required) throw new Error('Environment variable must be defined: ' + name);
-  } else {
+  } else if (type) {
     switch (type) {
       case 'a':
         return val.split(',');
