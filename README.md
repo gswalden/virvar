@@ -33,12 +33,12 @@ console.log(vv('BOOL_VAL2', false, 'b')); // true
 console.log(vv('BOOL_VAL3', false, 'b')); // true
 console.log(vv('BOOL_VAL4', false, 'b')); // false
 console.log(vv('JSON_VAL', false, 'j')); // { a: 1, b: 2, c: 3 }
-console.log(vv('ARRAY_VAL', false, 'a')); // [ item1, item2, item3 ]
+console.log(vv('ARRAY_VAL', false, 'a')); // [ 'item1', 'item2', 'item3' ]
 ```
 
 #### vv(name, required, type)
 Returns the value of the environment variable, optionally parsing it into the given type.
-Throws an error if the `required` parameter is truthy and the value is loosely equal to `null`.
+Throws an error if the `required` parameter is truthy and the value is loosely equal to `null` (before conversion).
 
 ##### name
 Type: `string`
