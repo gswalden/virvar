@@ -1,6 +1,6 @@
 {
   "name": "virvar",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple environment variable utility",
   "main": "index.js",
   "scripts": {
